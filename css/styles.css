@@ -1,0 +1,106 @@
+.dark-scroll-header{
+    background-color: rgba(2, 20, 67, .8);
+}
+.dark-topbar{
+    background-color: #06b49e;
+}
+.cont-logos-clientes{
+    padding-top: 80px;
+}
+.logo-cliente{
+    max-width: 150px;
+}
+.section-sectores{
+    padding-top: 60px !important;
+    
+}
+.bg-escuelas{
+    background-image: url(../images/escuela.jpg) !important;
+    background-position: 47vw 28px !important;
+    background-size: 810px !important;
+    background-color:white !important;
+}
+.bg-empresas{
+    background-image: url(../images/empresa.jpg) !important;
+    background-position: 47vw 28px !important;
+    background-size: 810px !important;
+    background-color:white !important;
+}
+.bg-editoriales{
+    background-image: url(../images/editorial.jpg) !important;
+    background-position: 47vw 28px !important;
+    background-size: 810px !important;
+    background-color:white !important;
+}
+.bg-impresores{
+    background-image: url(../images/impresor.jpg) !important;
+    background-position: 47vw 28px !important;
+    background-size: 810px !important;
+    background-color:white !important;
+    padding-bottom: 280px !important;
+}
+.correo-tb a, .contacto-tb a{
+    color: white !important;
+}
+@media screen and (max-width: 1260px) {
+    .contacto-tb {
+        padding-right: 20px;
+    }
+    .correo-tb{
+        padding-left: 20px;
+    }
+
+}
+@media screen and (max-width: 991px) {
+    .cont-logos-clientes{
+        padding-top: 0px;
+    }
+    .logo-cliente{
+        max-width: 200px;
+    }
+    .no-logo{
+        display: none;
+    }
+    .cont-map{
+        height: 450px;
+    }
+    .bg-escuelas,
+    .bg-empresas,
+    .bg-editoriales,
+    .bg-impresores{
+        background-size: cover !important;
+        background-position: center !important;
+    }
+    .bg-impresores{
+        padding-bottom: 50px !important;
+    }
+    .titleSectores{
+        color: white;
+        z-index: 2;
+        position: relative;
+    }
+}
+@media screen and (max-width: 540px) {
+    .correo-tb, .contacto-tb{
+        font-size: 13px;
+        padding-top: 3px;
+    }
+    .c-grid4x2 {
+        justify-items: center;
+        -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    }
+}
+@media screen and (max-width: 479px) {
+    .heading-beta {
+        font-size: 42px !important;
+    }
+}
+@media screen and (max-width: 410px) {
+    .correo-tb, .contacto-tb{
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
